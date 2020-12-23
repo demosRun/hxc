@@ -1,0 +1,154 @@
+body, html, .page, .page-box {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+img {
+  border: none;
+}
+
+[route-active="false"] {
+  display: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.so {
+  position: absolute;
+}
+
+.so-0 {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60.6vw;
+  z-index: 10;
+  position: relative;
+}
+
+.so-1 {
+  left: 60.88%;
+  top: 38.4%;
+  width: 19.11%;
+  height: 32.41%;
+  z-index: 9;
+}
+
+.so-2 {
+  left: 35.1%;
+  top: 27.68%;
+  width: 30.93%;
+  height: 18.7%;
+  z-index: 8;
+}
+
+.so-3 {
+  left: 0%;
+  top: 29.42%;
+  width: 100%;
+  height: 71%;
+  z-index: 7;
+}
+
+.so-4 {
+  left: 0%;
+  top: 0%;
+  width: 70.27%;
+  height: 38.73%;
+  z-index: 6;
+}
+
+.so-5 {
+  left: 22.96%;
+  top: 0%;
+  width: 58.28%;
+  height: 63.92%;
+  z-index: 5;
+}
+
+.so-6 {
+  right: 0%;
+  top: 0%;
+  width: 56.79%;
+  height: 31.17%;
+  z-index: 4;
+}
+
+.so-7 {
+  left: 76.45%;
+  top: 19.36%;
+  width: 12.76%;
+  height: 14.63%;
+  z-index: 3;
+}
+
+.so-8 {
+  left: 8.54%;
+  top: 41.14%;
+  width: 17.39%;
+  height: 25.02%;
+  z-index: 1;
+}
+
+.so-9 {
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 84.95%;
+  z-index: 0;
+}
+
+.tab-bar-item {
+  background-image: url('../resource/tab-bar-bottom.png');
+  width: 209px;
+  height: 79px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+

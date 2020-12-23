@@ -1,0 +1,115 @@
+<template lang="pug">
+.home
+  .so-0
+    img.so.so-1(src="@|1033.png|")
+    img.so.so-2(src="@|1034.png|")
+    img.so.so-3(src="@|1031.png|")
+    img.so.so-4(src="@|1022.png|")
+    img.so.so-5(src="@|1037.png|")
+    img.so.so-6(src="@|1021.png|")
+    img.so.so-7(src="@|1024.png|")
+    img.so.so-8(src="@|1030.png|")
+    img.so.so-9(src="@|1029.png|")
+  .top-bar
+    .tab-bar-item 省委书记、省长
+    .tab-bar-item 副省、地市领导
+    .tab-bar-item 县领导
+    img.video-item(src="@|video-button.png|") 
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('ss')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.so {
+  position: absolute;
+}
+.so-0 {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60.6vw;
+  z-index: 10;
+  position: relative;
+}
+.so-1 {
+  left: 60.88%;
+  top: 38.4%;
+  width: 19.11%;
+  height: 32.41%;
+  z-index: 9;
+}
+.so-2 {
+  left: 35.1%;
+  top: 27.68%;
+  width: 30.93%;
+  height: 18.7%;
+  z-index: 8;
+}
+.so-3 {
+  left: 0%;
+  top: 29.42%;
+  width: 100%;
+  height: 71%;
+  z-index: 7;
+}
+.so-4 {
+  left: 0%;
+  top: 0%;
+  width: 70.27%;
+  height: 38.73%;
+  z-index: 6;
+}
+.so-5 {
+  left: 22.96%;
+  top: 0%;
+  width: 58.28%;
+  height: 63.92%;
+  z-index: 5;
+}
+.so-6 {
+  right: 0%;
+  top: 0%;
+  width: 56.79%;
+  height: 31.17%;
+  z-index: 4;
+}
+.so-7 {
+  left: 76.45%;
+  top: 19.36%;
+  width: 12.76%;
+  height: 14.63%;
+  z-index: 3;
+}
+.so-8 {
+  left: 8.54%;
+  top: 41.14%;
+  width: 17.39%;
+  height: 25.02%;
+  z-index: 1;
+}
+.so-9 {
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 84.95%;
+  z-index: 0;
+}
+.tab-bar-item {
+  background-image: url('@|tab-bar-bottom.png|');
+  width: 209px;
+  height: 79px;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+</style>
