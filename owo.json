@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "viewport",
-			"content": "width=1000, user-scalable=yes"
+			"content": "height=device-height,initial-scale=1,user-scalable=no,maximum-scale=1,user-scalable=no"
 		},
 		{
 			"name": "format-detection",
@@ -61,13 +61,17 @@
 	],
 	"scriptList": [
 		{
-			"name": "idangerous.swiper2.7.6.min",
-			"src": "https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js"
+			"name": "tab",
+			"src": "./src/tab.js"
 		},
 		{
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "check",
+			"src": "./owo_modules/check.js"
 		}
 	],
 	"styleList": [
@@ -75,10 +79,6 @@
 			"name": "main",
 			"src": "./src/main.css",
 			"resource": true
-		},
-		{
-			"name": "idangerous.swiper2.7.6",
-			"src": "https://cunchu.site/owo/style/idangerous.swiper2.7.6.css"
 		}
 	],
 	"pageList": [
