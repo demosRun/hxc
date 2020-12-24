@@ -189,24 +189,26 @@
           .liuyan-button
             a(href="#") 给TA留言
       .card-box.card-box-4.clear
-        .card-video-item
-          .play-video
-            img.people(src="@|people-video.png|")
-            .shlder
-              img.play-button(src="@|play-button.png|")
-          p 安徽省淮北市濉溪县委书记赵德志
-        .card-video-item
-          .play-video
-            img.people(src="@|people-video.png|")
-            .shlder
-              img.play-button(src="@|play-button.png|")
-          p 安徽省淮北市濉溪县委书记赵德志
-        .card-video-item
-          .play-video
-            img.people(src="@|people-video.png|")
-            .shlder
-              img.play-button(src="@|play-button.png|")
-          p 安徽省淮北市濉溪县委书记赵德志
+        .scr-box
+          .card-video-item
+            .play-video
+              img.people(src="@|people-video.png|")
+              .shlder
+                img.play-button(src="@|play-button.png|")
+            p 安徽省淮北市濉溪县委书记赵德志
+          .card-video-item
+            .play-video
+              img.people(src="@|people-video.png|")
+              .shlder
+                img.play-button(src="@|play-button.png|")
+            p 安徽省淮北市濉溪县委书记赵德志
+          .card-video-item
+            .play-video
+              img.people(src="@|people-video.png|")
+              .shlder
+                img.play-button(src="@|play-button.png|")
+            p 安徽省淮北市濉溪县委书记赵德志
+        img.show-more.no-pc(src="@|show-more.png|" o-tap="showMore")
     plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
@@ -214,6 +216,10 @@
   module.exports = {
     created: function () {
       new tabIt(document.querySelectorAll('.top-bar .tab-bar-item'), document.querySelectorAll('.tab-box .card-box'))
+    },
+    showMore: function () {
+      this.query('.scr-box').style.height = 'auto'
+      this.$target.style.display = 'none'
     }
   }
 </script>
@@ -439,5 +445,9 @@
     line-height: 34px;
     display: block;
   }
+}
+.show-more {
+  margin: 0 auto;
+  display: block;
 }
 </style>
