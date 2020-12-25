@@ -7,7 +7,6 @@ body, html {
   font-size: 14px;
   font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
   min-height: 100vh;
 }
 html {
@@ -120,11 +119,11 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   height: 29vw;
 }
 
-.liuyan-button {
+.phone .liuyan-button {
   top: 61vw;
 }
 
-#copyright {
+.phone #copyright {
   margin-top: 0;
   padding-top: 20px;
 }
@@ -137,7 +136,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .phone .tab-bar-item.video-item {
   position: absolute;
   width: 15vw;
-  top: 34vw;
+  top: 64vw;
   right: 6vw;
 }
 
@@ -156,7 +155,25 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   float: none;
 }
 
-.phone .scr-box {
+.phone .card-box-4 .scr-box {
   height: 246vw;
   overflow: hidden;
+}
+
+.phone .top-bar {
+  padding-top: 82vw;
+}
+
+.city-box-phone {
+  border: none;
+  background-color: #f23d39;
+  color: white;
+  width: 82px;
+  height: 26px;
+  line-height: 26px;
+  position: fixed;
+  right: 3vw;
+  z-index: 9;
+  top: 8%;
+  padding: 0 10px;
 }

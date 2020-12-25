@@ -1,4 +1,4 @@
-// Thu Dec 24 2020 17:17:27 GMT+0800 (GMT+08:00)
+// Fri Dec 25 2020 17:05:05 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},event: {}};
 /* 方法合集 */
 var _owo = {
@@ -271,6 +271,37 @@ _owo.cutStringArray = function (original, before, after, index, inline) {
 
 
 
+/**
+ * 赋予节点动画效果
+ * @param  {string} name 动画效果名称
+ * @param  {dom} dom 节点
+ */
+owo.animate = function (name, dom, delay, callBack) {
+  // 都使用IE了效果还重要吗
+  if (_owo.isIE) return
+  var owoAni = dom.getAttribute('o-animation')
+  if (owoAni) {
+    dom.setAttribute('o-animation', owoAni + '-suspend')
+  }
+  dom.classList.add(name)
+  dom.classList.add('owo-animated')
+  if (delay) {
+    dom.style.animationDelay = delay + 'ms'
+  }
+  dom.addEventListener('animationend', animateEnd)
+  function animateEnd () {
+    if (callBack) callBack(dom)
+    dom.classList.remove(name)
+    dom.classList.remove('owo-animated')
+    if (delay) {
+      dom.style.animationDelay = ''
+    }
+    if (owoAni) {
+      dom.setAttribute('o-animation', owoAni)
+    }
+  }
+}
+
 // 页面切换
 
 
@@ -485,21 +516,4 @@ _owo.showPage = function() {
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
 
-
-
-// 这是用于代码调试的自动刷新代码，他不应该出现在正式上线版本!
-if ("WebSocket" in window) {
-  // 打开一个 web socket
-  if (!window._owo.ws) window._owo.ws = new WebSocket("ws://" + window.location.host)
-  window._owo.ws.onmessage = function (evt) { 
-    if (evt.data == 'reload') {
-      location.reload()
-    }
-  }
-  window._owo.ws.onclose = function() { 
-    console.info('与服务器断开连接')
-  }
-} else {
-  console.error('浏览器不支持WebSocket')
-}
 

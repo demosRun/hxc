@@ -254,9 +254,12 @@ li {
 
 .city-box {
   position: fixed;
-  right: 100px;
+  right: 50px;
   width: 172px;
   bottom: 100px;
+  z-index: 99;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .city-box .city-item {
@@ -267,6 +270,14 @@ li {
   margin: 4px 10px;
   text-align: center;
   line-height: 30px;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #796e6e;
+  cursor: pointer;
+}
+
+.city-box .city-item.active {
+  background-color: #e9ad45;
   color: white;
 }
 
@@ -297,7 +308,33 @@ li {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0 0 0%);
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-video-item .video-item-cov {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: none;
+  left: 0;
+  top: 0;
+}
+
+.card-video-item .video-item-cov video {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.card-video-item .video-item-cov .close-video {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: white;
+  background: black;
+  padding: 1px 5px;
   cursor: pointer;
 }
 
@@ -308,6 +345,11 @@ li {
   top: 0;
   bottom: 0;
   margin: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
 }
 
 .card-video-item p {
@@ -321,5 +363,106 @@ li {
 .show-more {
   margin: 0 auto;
   display: block;
+}
+
+.so-phone-0 {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 91vw;
+  z-index: -1;
+}
+
+.so-phone-1 {
+  left: 65.6%;
+  top: 39.34%;
+  width: 26.26%;
+  height: 29.75%;
+  z-index: -1;
+}
+
+.so-phone-2 {
+  left: 27.86%;
+  top: 25.89%;
+  width: 47.06%;
+  height: 19.31%;
+  z-index: -2;
+}
+
+.so-phone-3 {
+  left: 0%;
+  top: 0%;
+  width: 83.06%;
+  height: 42.06%;
+  z-index: -3;
+}
+
+.so-phone-4 {
+  left: 10.53%;
+  top: 0%;
+  width: 82.4%;
+  height: 62.23%;
+  z-index: -4;
+}
+
+.so-phone-5 {
+  right: 0;
+  top: 0%;
+  width: 54.4%;
+  height: 27.33%;
+  z-index: -5;
+}
+
+.so-phone-6 {
+  left: 0%;
+  top: 1.43%;
+  width: 100%;
+  height: 100%;
+  z-index: -6;
+}
+
+/* 动画效果 */
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
 }
 

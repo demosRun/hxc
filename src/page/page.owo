@@ -10,216 +10,266 @@
     img.so.so-7(src="@|1024.png|")
     img.so.so-8(src="@|1030.png|")
     img.so.so-9(src="@|1029.png|")
+  //- 手机的头部
+  .so.so-phone-0.no-pc
+    img.so.so-phone-1(src="@|phone-504.png|")
+    img.so.so-phone-2(src="@|phone-505.png|")
+    img.so.so-phone-3(src="@|phone-508.png|")
+    img.so.so-phone-4(src="@|phone-521.png|")
+    img.so.so-phone-5(src="@|phone-509.png|")
+    img.so.so-phone-6(src="@|phone-520.jpg|")
   .conn.w1000
     .top-bar
-      .tab-bar-item.tab-bar-button.active 省委书记、省长
-      .tab-bar-item.tab-bar-button 副省、地市领导
-      .tab-bar-item.tab-bar-button 县领导
-      img.video-item.tab-bar-item(src="@|video-button.png|")
+      .tab-bar-item.tab-bar-button.active(name="shengweishuji") 省委书记、省长
+      .tab-bar-item.tab-bar-button(name="fushengdishilingdao") 副省、地市领导
+      .tab-bar-item.tab-bar-button(name="xianlingdao") 县领导
+      img.video-item.tab-bar-item(name="shipin" src="@|video-button.png|")
     //- 标题栏
     img.title-bar(src="@|title-1.png|")
     //- 右侧城市选择条
     .city-box.clear.no-phone
-      .city-item 北京
-      .city-item 天津
-      .city-item 河北
-      .city-item 山西
-      .city-item 内蒙古
-      .city-item 浙江
-      .city-item 福建
-      .city-item 安徽
-      .city-item 江西
-      .city-item 山东
-      .city-item 辽宁
-      .city-item 黑龙江
-      .city-item 广东
-      .city-item 广西
-      .city-item 海南
-      .city-item 河南
-      .city-item 湖南
-      .city-item 湖北
-      .city-item 四川
-      .city-item 重庆
-      .city-item 贵州
-      .city-item 云南
-      .city-item 西藏
-      .city-item 陕西
-      .city-item 甘肃
-      .city-item 青海
-      .city-item 宁夏
-      .city-item 新疆
-      .city-item 吉林
-      .city-item 深圳
-      .city-item 江苏
-      .city-item 雄安
+    //- 手机的xuanze
+    
+    select.city-box-phone.clear.no-pc(style="position: absolute; top: 97vw;" o-change="changeCityPhone")
     .tab-box
       .card-box.card-box-1.clear
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
       .card-box.card-box-2.clear
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
       .card-box.card-box-3.clear
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
-        .card-item
-          img.people(src="@|people.png|")
-          h2 江西省委常委、南昌市委书记殷美根
-          p 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。
-          .liuyan-button
-            a(href="#") 给TA留言
       .card-box.card-box-4.clear
         .scr-box
-          .card-video-item
-            .play-video
-              img.people(src="@|people-video.png|")
-              .shlder
-                img.play-button(src="@|play-button.png|")
-            p 安徽省淮北市濉溪县委书记赵德志
-          .card-video-item
-            .play-video
-              img.people(src="@|people-video.png|")
-              .shlder
-                img.play-button(src="@|play-button.png|")
-            p 安徽省淮北市濉溪县委书记赵德志
-          .card-video-item
-            .play-video
-              img.people(src="@|people-video.png|")
-              .shlder
-                img.play-button(src="@|play-button.png|")
-            p 安徽省淮北市濉溪县委书记赵德志
         img.show-more.no-pc(src="@|show-more.png|" o-tap="showMore")
     plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
 <script>
+  var dataList = {
+    "shengweishuji": {
+      "北京": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "天津": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "河北": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "山西": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "内蒙古": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+    },
+    "fushengdishilingdao": {
+      "北京": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "天津": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "河北": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "山西": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "内蒙古": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+    },
+    "xianlingdao": {
+      "北京": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "天津": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "河北": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "山西": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+      "内蒙古": [
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+        {"userImg": "@|people.png|", "title": "江西省委常委、南昌市委书记殷美根", "text": "一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，特别要强调对国家经济发展做什么样的贡献，这是“在中国 为中国”的核心含义。", "href": "", "sign": ""},
+      ],
+    },
+    "shipin": {
+      "北京": [
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+      ],
+      "天津": [
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+      ],
+      "河北": [
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+      ],
+      "山西": [
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+      ],
+      "内蒙古": [
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+        {"userImg": "@|people-video.png|", "title": "安徽省淮北市濉溪县委书记赵德志", "href": "", "video": "http://cunchu.site/people/%E5%B1%B1.mp4"},
+      ],
+    }
+  }
   module.exports = {
+    data: {
+      selectCity: "",
+      activeConn: null
+    },
     created: function () {
-      new tabIt(document.querySelectorAll('.top-bar .tab-bar-item'), document.querySelectorAll('.tab-box .card-box'))
+      // 入场动画
+      if (screenInfo.isPc) {
+        owo.animate('slideInDown', this.query('.so-4'), 100)
+        owo.animate('slideInDown', this.query('.so-6'), 100)
+        owo.animate('fadeIn', this.query('.so-1'), 800)
+        owo.animate('zoomIn', this.query('.so-2'), 1800)
+        setTimeout(() => {
+          this.query('.city-box').style.opacity = 1
+        }, 2000);
+      } else {
+        owo.animate('slideInDown', this.query('.so-phone-3'), 100)
+        owo.animate('slideInDown', this.query('.so-phone-5'), 100)
+        owo.animate('fadeIn', this.query('.so-phone-1'), 800)
+        owo.animate('zoomIn', this.query('.so-phone-2'), 1800)
+        // 监控滚动条
+        const vw = document.documentElement.clientWidth || document.body.offsetWidth || window.innerWidth
+        var scrolltop = null;
+        const phoneSelect = this.query('.city-box-phone')
+        window.onscroll=function(e){
+          scrolltop = document.documentElement.scrollTop;
+          if (scrolltop / vw < 0.8) {
+            phoneSelect.style.position = 'absolute'
+            phoneSelect.style.top = '117vw'
+          } else {
+            phoneSelect.style.position = ''
+            phoneSelect.style.top = ''
+          }
+        }
+      }
+      
+      new tabIt(document.querySelectorAll('.top-bar .tab-bar-item'), document.querySelectorAll('.tab-box .card-box'), 'click', (e) => {
+        
+        // 生成城市选择列表
+        this.data.activeConn = e.activeConn
+        this.data.activeName = e.activeTab.getAttribute("name")
+        let selectCity = Object.keys(dataList[this.data.activeName])[0]
+        this.changeCity(selectCity)
+      })
+
+    },
+    changeCityPhone: function () {
+      this.changeCity($(".city-box-phone option:selected")[0].value)
+    },
+    changeCity: function (selectCity) {
+      console.log(selectCity)
+      let newCityHtml = ''
+      let newCityHtmlPhone = ''
+      Object.keys(dataList[this.data.activeName]).forEach(element => {
+        newCityHtml += `<div class="city-item${selectCity == element ? ' active' : ''}" o-tap="changeCity('${element}')">${element}</div>`
+        newCityHtmlPhone += `<option value="${element}"${selectCity == element ? ' selected' : ''}>${element}</option>`
+      });
+      this.query('.city-box').innerHTML = newCityHtml
+      this.query('.city-box-phone').innerHTML = newCityHtmlPhone
+
+      let newHtml = '<div class="scr-box">'
+      let ind = 0
+      dataList[this.data.activeName][selectCity].forEach(element => {
+        if (this.data.activeName == 'shipin') {
+          newHtml += `<div class="card-video-item card-video-item-${ind}"><div class="play-video"><img class="people" src="${element.userImg}"><div class="shlder" o-tap="playVideo(${ind})"><img class="play-button" src="@|play-button.png|"></div></div><p>${element.title}</p><div class="video-item-cov"><video src="${element.video}"></video><div class="close-video" o-tap="stopVideoPlay(${ind})">关闭</div></div></div>`
+          this.query('.title-bar').src = '@|title-2.png|'
+        } else {
+          newHtml += `<div class="card-item"><img class="people" src="${element.userImg}"><h2>${element.title}</h2><p>${element.text}</p><div class="liuyan-button"><a href="${element.href}">给TA留言</a></div></div>`
+          this.query('.title-bar').src = '@|title-1.png|'
+        }
+        ind++
+      });
+      newHtml += '</div>'
+      if (this.data.activeName == 'shipin') {
+        newHtml += '<img class="show-more no-pc" src="@|show-more.png|" o-tap="showMore">'
+      }
+      this.data.activeConn.innerHTML = newHtml
+      setTimeout(() => {
+        this.handleEvent(this, this.query('.city-box'))
+        this.handleEvent(this, this.query('.city-box'))
+        this.handleEvent(this, this.data.activeConn)
+      }, 0);
     },
     showMore: function () {
       this.query('.scr-box').style.height = 'auto'
       this.$target.style.display = 'none'
+    },
+    playVideo: function (ind) {
+      const box = this.query(`.card-video-item-${ind}`)
+      box.query('.video-item-cov').style.display = 'block'
+      box.query('video').play()
+    },
+    stopVideoPlay: function (ind) {
+      const box = this.query(`.card-video-item-${ind}`)
+      box.query('.video-item-cov').style.display = 'none'
+      box.query('video').stop()
     }
   }
 </script>
@@ -391,9 +441,12 @@
 }
 .city-box {
   position: fixed;
-  right: 100px;
+  right: 50px;
   width: 172px;
   bottom: 100px;
+  z-index: 99;
+  opacity: 0;
+  transition: opacity 1s;
   .city-item {
     width: 65px;
     height: 31px;
@@ -402,6 +455,13 @@
     margin: 4px 10px;
     text-align: center;
     line-height: 30px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #796e6e;
+    cursor: pointer;
+  }
+  .city-item.active {
+    background-color: #e9ad45;
     color: white;
   }
 }
@@ -427,8 +487,31 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 20%);
+    background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
+  }
+  .video-item-cov {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    left: 0;
+    top: 0;
+    video {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+    }
+    .close-video {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      color: white;
+      background: black;
+      padding: 1px 5px;
+      cursor: pointer;
+    }
   }
   .play-button {
     position: absolute;
@@ -437,6 +520,8 @@
     top: 0;
     bottom: 0;
     margin: auto;
+    user-select: none;
+    pointer-events: none;
   }
   p {
     background-color: #d6833f;
@@ -450,4 +535,54 @@
   margin: 0 auto;
   display: block;
 }
+.so-phone-0 {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 91vw;
+  z-index: -1;
+}
+.so-phone-1 {
+  left: 65.6%;
+  top: 39.34%;
+  width: 26.26%;
+  height: 29.75%;
+  z-index: -1;
+}
+.so-phone-2 {
+  left: 27.86%;
+  top: 25.89%;
+  width: 47.06%;
+  height: 19.31%;
+  z-index: -2;
+}
+.so-phone-3 {
+  left: 0%;
+  top: 0%;
+  width: 83.06%;
+  height: 42.06%;
+  z-index: -3;
+}
+.so-phone-4 {
+  left: 10.53%;
+  top: 0%;
+  width: 82.4%;
+  height: 62.23%;
+  z-index: -4;
+}
+.so-phone-5 {
+  right: 0;
+  top: 0%;
+  width: 54.4%;
+  height: 27.33%;
+  z-index: -5;
+}
+.so-phone-6 {
+  left: 0%;
+  top: 1.43%;
+  width: 100%;
+  height: 100%;
+  z-index: -6;
+}
+
 </style>
