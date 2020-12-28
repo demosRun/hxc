@@ -61,7 +61,7 @@ li {
   font-size: 14px;
   height: 60px;
   color: #000000;
-  z-index: 999;
+  z-index: 99;
   width: 100%;
   line-height: 30px;
   text-align: center;
@@ -170,12 +170,21 @@ li {
   color: white;
 }
 
+.conn {
+  padding-top: 51vw;
+}
+
 .top-bar {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-top: 51vw;
+  bottom: 11%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 999;
+  position: fixed;
 }
 
 .video-item {
@@ -213,6 +222,10 @@ li {
   top: 47px;
   color: #4e2e09;
   line-height: 30px;
+}
+
+.card-item h2 a {
+  color: #4e2e09;
 }
 
 .card-item p {
@@ -419,6 +432,13 @@ li {
   width: 100%;
   height: 100%;
   z-index: -6;
+}
+
+.sign {
+  position: absolute;
+  height: 67px;
+  right: 36px;
+  bottom: 60px;
 }
 
 /* 动画效果 */

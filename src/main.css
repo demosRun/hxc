@@ -160,8 +160,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   overflow: hidden;
 }
 
-.phone .top-bar {
-  padding-top: 82vw;
+.phone .conn {
+  padding-top: 70vw;
 }
 
 .city-box-phone {
@@ -176,4 +176,10 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   z-index: 9;
   top: 8%;
   padding: 0 10px;
+}
+
+.phone .sign {
+  height: 9vw;
+  right: 9vw;
+  bottom: 20vw;
 }
